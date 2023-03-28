@@ -1,0 +1,14 @@
+[profile.default]
+solc-version = "0.8.17"
+gas_reports = ["MothoraGame"]
+libraries = []
+optimizer = true
+optimizer_runs = 1_000
+remappings = [
+  '@ds-test=lib/ds-test/src/',
+  '@openzeppelin/contracts=lib/openzeppelin-contracts/contracts/',
+  '@std=lib/forge-std/src/',
+  '@murky=lib/murky/src/'
+]
+verbosity = 0
+ffi = true
