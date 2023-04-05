@@ -14,8 +14,6 @@ contract NFTStorage is ERC721, ERC721Enumerable, ERC721URIStorage {
   constructor() ERC721("NFTStorage", "mothora") {}
 
   function mint(string memory _cid) public returns (uint256) {
-    require(totalSupply() < 10, "Max supply reached");
-
     uint256 newItemId = _tokenIds.current();
     _mint(msg.sender, newItemId);
     _setTokenURI(newItemId, _cid);

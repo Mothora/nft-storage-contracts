@@ -1224,8 +1224,8 @@
       }
     },
     "src/NFTStorage.sol": {
-      "lastModificationDate": 1680044637205,
-      "contentHash": "7a3649ed61af5888a7b8cdb8e2bebc5d",
+      "lastModificationDate": 1680659021166,
+      "contentHash": "6b82877d1b288364c775d93bd9512b1c",
       "sourceName": "src/NFTStorage.sol",
       "solcConfig": {
         "settings": {
@@ -1279,8 +1279,8 @@
       }
     },
     "test/NFTStorage.t.sol": {
-      "lastModificationDate": 1680043013836,
-      "contentHash": "1c4cc7f1e59d4c734c03c71d2614b0e2",
+      "lastModificationDate": 1680659009685,
+      "contentHash": "4933278cb1f01c2e4491af5cd3addc0b",
       "sourceName": "test/NFTStorage.t.sol",
       "solcConfig": {
         "settings": {
